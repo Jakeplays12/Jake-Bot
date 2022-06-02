@@ -74,6 +74,6 @@ client.on('interactionCreate', async interaction => {
 client.on('ready', () => {
     console.log('the bot has started successfully.')
 
-    client.user.setActivity('Jake Struggle with coding', {type: "WATCHING"})
+    client.user.setActivity('@jplays_12', {type: "PLAYING"})
 })
 client.login(token);
